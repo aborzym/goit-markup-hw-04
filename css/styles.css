@@ -22,6 +22,10 @@ body {
   width: 1600px;
 }
 
+.sdp {
+  margin-bottom: 30px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -113,10 +117,6 @@ ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
-}
-
-.list-block-element {
-  padding-bottom: 9px;
 }
 
 .active-page,
@@ -266,13 +266,20 @@ ul {
   color: var(--grey);
 }
 
+.footer-wrapper {
+  background-color: var(--lgrey);
+}
 .footer {
+  padding-left: 215px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   background-color: var(--dgrey);
 }
 
 .footer-logo {
-  padding-top: 60px;
-  margin-left: 215px;
   display: flex;
   font-family: "Raleway";
   font-weight: 700;
@@ -284,8 +291,8 @@ ul {
 }
 
 .footer-contact {
-  padding-left: 215px;
-  padding-top: 20px;
+  display: flex;
+  gap: 9px;
   font-size: 14px;
   font-style: inherit;
   line-height: 1.71;
