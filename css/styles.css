@@ -266,9 +266,6 @@ ul {
   color: var(--grey);
 }
 
-.footer-wrapper {
-  background-color: var(--vlgrey);
-}
 .footer {
   padding-left: 215px;
   padding-top: 60px;
