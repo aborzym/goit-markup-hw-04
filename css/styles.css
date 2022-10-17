@@ -8,7 +8,7 @@
   --vdgrey: #212121;
   --black: #000;
   --blue: #2196f3;
-  --headerborder: #ececec;
+  --header-border: #ececec;
   --greyrgba: rgba(255, 255, 255, 0.6);
 }
 
@@ -55,7 +55,7 @@ ul {
 .menu {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--headerborder);
+  border-bottom: 1px solid var(--header-border);
   background-color: var(--white);
 }
 
@@ -112,6 +112,7 @@ ul {
 
 .list {
   list-style-type: none;
+  display: inline-flex;
 }
 .list-block {
   padding: 0;
@@ -209,7 +210,7 @@ ul {
   column-gap: 30px;
 }
 .what-we-do-photo {
-  flex-basis: calc((100% -60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .main-bottom {
@@ -237,11 +238,6 @@ ul {
 
 .photos {
   margin: 0;
-}
-
-.team-photo {
-  width: 270px;
-  height: 260px;
 }
 
 .team-name {
@@ -307,20 +303,20 @@ ul {
 }
 
 .portfolio-main {
-  margin: auto;
-  width: 1600px;
-  height: 1548px;
   background-color: var(--white);
+  padding-bottom: 94px;
 }
 .portfolio-buttons {
-  padding: 94px 0 50px 510px;
+  padding-top: 94px;
+  padding-left: 532px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 
 .portfolio-button {
   padding: 6px 22px;
-  margin-right: 8px;
-  height: 38px;
-  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -338,17 +334,17 @@ ul {
   background-color: var(--blue);
 }
 
-.grid-container {
-  padding-left: 215px;
-  display: grid;
+.flex-container {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
-  grid-template-columns: 370px 370px 370px;
-  grid-template-rows: 404px 404px 404px;
 }
 
-.grid-item {
+.portfolio-item {
   margin: 0;
-  border: 1px solid var(--border-grid);
+  border-bottom: 1px solid var(--border-grid);
+  flex-basis: 370px;
 }
 .portfolio-name {
   padding-left: 24px;
@@ -363,6 +359,7 @@ ul {
 .portfolio-category {
   padding-left: 24px;
   padding-top: 4px;
+  padding-bottom: 20px;
   margin: 0;
   font-size: 16px;
   line-height: 1.875;
