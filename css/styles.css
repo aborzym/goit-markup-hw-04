@@ -271,13 +271,16 @@ ul {
 }
 
 .footer {
+  background-color: var(--dgrey);
+}
+
+.footer-content {
   padding-left: 215px;
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background-color: var(--dgrey);
 }
 
 .footer-logo {
