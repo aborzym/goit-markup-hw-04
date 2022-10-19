@@ -41,6 +41,7 @@ ul {
 .container {
   width: 1200px;
   margin: auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -76,9 +77,11 @@ ul {
 .menu-logo-white {
   color: var(--white);
 }
+.menu-nav {
+  margin-left: 93px;
+}
 
 .menu-nav-list {
-  padding-left: 93px;
   display: flex;
   gap: 46px;
   font-weight: 500;
@@ -86,9 +89,10 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.menu-nav-right-container {
+  margin-left: 371px;
+}
 .menu-nav-right {
-  padding-left: 371px;
   display: flex;
   gap: 50px;
   font-weight: 500;
@@ -134,7 +138,7 @@ ul {
 
 .slogan {
   margin: 0;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -167,6 +171,8 @@ ul {
 
 .our-strengths-list {
   padding-top: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-bottom: 0;
   display: flex;
   column-gap: 30px;
@@ -195,6 +201,8 @@ ul {
 }
 
 .what-we-do {
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,6 +222,9 @@ ul {
   background-color: var(--vlgrey);
 }
 .our-team {
+  padding-left: 15px;
+  padding-right: 15px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -332,7 +343,9 @@ ul {
 }
 
 .flex-container {
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
