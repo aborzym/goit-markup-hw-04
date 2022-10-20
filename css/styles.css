@@ -339,8 +339,8 @@ ul {
   cursor: pointer;
 }
 
-.portfolio-buttons button:hover,
-.portfolio-buttons button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: var(--white);
   background-color: var(--blue);
 }
