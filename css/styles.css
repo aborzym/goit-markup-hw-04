@@ -163,7 +163,7 @@ ul {
       var(--main-image-linear-gradient),
       var(--main-image-linear-gradient)
     ),
-    url(/images/background-image.jpg);
+    url(./images/background-image.jpg);
   background-size: contain;
 }
 
