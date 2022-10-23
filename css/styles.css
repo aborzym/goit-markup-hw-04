@@ -340,11 +340,13 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--blue);
   --color3: var(--white);
 }
+
 .socials-icon {
   width: 20px;
   height: 20px;
@@ -355,10 +357,12 @@ ul {
 .our-clients-container {
   background-color: var(--white);
 }
+
 .clients-list {
   display: flex;
   gap: 30px;
 }
+
 .clients-link {
   display: flex;
   padding: 16px 32px;
@@ -371,6 +375,7 @@ ul {
   border-color: var(--blue);
   --color3: var(--blue);
 }
+
 .our-clients {
   display: flex;
   flex-direction: column;
@@ -449,6 +454,7 @@ ul {
   display: flex;
   gap: 10px;
 }
+
 .footer-socials-link {
   display: flex;
   width: 44px;
@@ -463,10 +469,14 @@ ul {
 .footer-socials-link:focus {
   background-color: var(--blue);
 }
+
 .footer-socials-icon {
   width: 20px;
   height: 20px;
 }
+
+/* =============== P O R T F O L I O  ================ */
+
 .portfolio-main {
   background-color: var(--white);
   padding-bottom: 94px;
