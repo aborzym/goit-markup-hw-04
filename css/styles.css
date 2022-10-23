@@ -11,7 +11,6 @@
   --header-border: #ececec;
   --greyrgba: rgba(255, 255, 255, 0.6);
 }
-
 body {
   margin: 0;
   margin: auto;
@@ -38,6 +37,11 @@ ul {
   text-decoration: none;
 }
 
+.flex-c-g10 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .container {
   width: 1200px;
   margin: auto;
@@ -90,11 +94,11 @@ ul {
   letter-spacing: 0.02em;
 }
 .menu-nav-right-container {
-  margin-left: 371px;
+  margin-left: 345px;
 }
 .menu-nav-right {
   display: flex;
-  gap: 50px;
+  gap: 30px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,11 +136,15 @@ ul {
 .link-grey-footer:focus {
   text-decoration: none;
   color: var(--blue);
+  --color2: var(--blue);
+  --color4: var(--blue);
 }
 
 .main-top {
-  background-color: var(--dgrey);
   padding: 200px 0;
+  background-color: var(--dgrey);
+  background-image: url(/images/background-image.jpg);
+  background-size: contain;
 }
 
 .slogan {
@@ -183,6 +191,13 @@ ul {
 
 .our-strengths-list-frame {
   flex-basis: calc((100% - 90px) / 4);
+}
+
+.our-strengths-list-icon-container {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--vlgrey);
+  border-radius: 4px;
 }
 
 .our-strengths-list-title {
@@ -264,8 +279,8 @@ ul {
 
 .team-position {
   margin: 0;
-  padding-bottom: 30px;
   margin-top: 0;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -273,6 +288,36 @@ ul {
   color: var(--grey);
 }
 
+.socials-icons-list {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--blue);
+  --color1: var(--white);
+}
+.socials-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.main-bottom {
+  background-color: var(--white);
+}
 .footer {
   background-color: var(--dgrey);
 }
