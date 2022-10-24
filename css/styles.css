@@ -159,10 +159,7 @@ ul {
 .main-top {
   padding: 200px 0;
   background-color: var(--dgrey);
-  background: linear-gradient(
-      var(--main-image-linear-gradient),
-      var(--main-image-linear-gradient)
-    )
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4))
     url(./images/background-image.jpg);
   background-size: contain;
 }
