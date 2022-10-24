@@ -159,11 +159,11 @@ ul {
 .main-top {
   padding: 200px 0;
   background-color: var(--dgrey);
-  background: url(./images/background-image.jpg),
-    linear-gradient(
+  background: linear-gradient(
       var(--main-image-linear-gradient),
       var(--main-image-linear-gradient)
-    );
+    )
+    url(./images/background-image.jpg);
   background-size: contain;
 }
 
